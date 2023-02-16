@@ -3,7 +3,6 @@ function parpadeo () {
         pins.digitalWritePin(DigitalPin.P2, 0)
         pins.digitalWritePin(DigitalPin.P4, 1)
         pins.digitalWritePin(DigitalPin.P6, 0)
-        basic.pause(500)
         basic.pause(tiempo_amarillo * 1000)
         pins.digitalWritePin(DigitalPin.P2, 0)
         pins.digitalWritePin(DigitalPin.P4, 0)
